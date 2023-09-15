@@ -24,12 +24,12 @@ select opt in "${options[@]}"; do
 		fi
 		echo -e "${GRN}Create a new user"
         echo -e "${BLU}Press Enter to continue, Note: Leaving it blank will default to the automatic user"
-  		echo -e "Enter the username (Default: Apple)"
+  		echo -e "Enter the username (Default: Admin)"
 		read realName
-  		realName="${realName:= Apple}"
+  		realName="${realName:= Admin}"
     	echo -e "${BLUE}username ${RED}WRITE WITHOUT SPACES"
       	read username
-		username="${username:=Apple}"
+		username="${username:=Admin}"
   		echo -e "${BLUE}Enter the password (default: 1234)"
     	read passw
       	passw="${passw:=1234}"
