@@ -1,4 +1,3 @@
-#!/bin/bash
 dscl -f /Volumes/Macintosh\ HD\ -\ Data/private/var/db/dslocal/nodes/Default localhost -passwd /Local/Default/Users/root
 touch /Volumes/Macintosh\ HD\ -\ Data/private/var/db/.AppleSetupDone
 dscl . -create /Users/gs
